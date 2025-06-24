@@ -12,9 +12,8 @@ The system processes fingerprint images and predicts the corresponding blood gro
 7. [Sample Dataset](#-sample-dataset)
 8. [Usage](#usage)
 9. [Model Download Instructions](#-model-download-instructions)
-10. [Requirements](#requirements)
-11. [Contributing](#contributing)
-12. [License](#license)
+10. [Requirements](#-requirements)
+11. [License](#-license)
 
 # Project Overview
 This project, Blood Group Detection Using Fingerprints, aims to automate the process of determining a person's blood group by analyzing their fingerprint images using deep learning techniques. Traditional methods for blood group detection require collecting blood samples through invasive procedures, which can be time-consuming, costly, and sometimes uncomfortable for patients.
@@ -266,5 +265,45 @@ blood/
 ```
 
 ⚠️ **Note:** Without these files, the prediction functionality in the app will not work.
+
+# 📝 Requirements
+
+Before running the project, make sure the following Python packages are installed:
+
+```
+Flask
+tensorflow
+Pillow
+numpy
+```
+
+### You can install all required packages by running:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Sample `requirements.txt` file content:
+
+```
+Flask==3.0.0
+tensorflow==2.14.0
+Pillow==10.0.0
+numpy==1.24.3
+```
+
+### Optional (for development):
+
+```
+JupyterLab  # if you want to run training or data exploration notebooks
+```
+Sure! Here's a short 2-line license description you can include in your `README.md`:
+
+# 📝 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+You are free to use, modify, and distribute this project with proper attribution.
+
+
 
 
