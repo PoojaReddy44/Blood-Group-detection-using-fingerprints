@@ -15,6 +15,11 @@ The system processes fingerprint images and predicts the corresponding blood gro
 10. [Requirements](#-requirements)
 11. [License](#-license)
 
+## 🎥 Demo Video
+
+[[Watch the Demo Video]](https://drive.google.com/file/d/1luOW0r8AjcxoFeOK19psw-xvvxsY4USN/view?usp=sharing)
+
+
 # Project Overview
 This project, Blood Group Detection Using Fingerprints, aims to automate the process of determining a person's blood group by analyzing their fingerprint images using deep learning techniques. Traditional methods for blood group detection require collecting blood samples through invasive procedures, which can be time-consuming, costly, and sometimes uncomfortable for patients.
 By leveraging machine learning models such as VGG16 and image processing techniques, this project offers a non-invasive, quick, and cost-effective alternative to conventional blood sample testing. Users can upload fingerprint images through a simple web interface built with Flask (Python), and the system predicts the blood group with high confidence, displaying both the result and the confidence score.
