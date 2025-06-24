@@ -138,6 +138,7 @@ pip install -r requirements.txt
 The trained model file (`keras_model.h5`) is large and not included in this repository due to GitHub file size limits.
 
 👉 [Download Keras_model.h5](https://drive.google.com/file/d/1-qlmxs8OlovCTEYW5GTco-f6IKZP1B76/view?usp=sharing)
+
    [Download Labels.txt](https://drive.google.com/file/d/1T6d8DYMi7AsL8MS3GPcr9gKMMn9aiKZt/view?usp=sharing)
 
 
