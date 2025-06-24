@@ -97,12 +97,6 @@ Git
 
 Virtual Environment (recommended)
 ## Installation steps:
-Here’s your **Installation Steps** in **perfect, ready-to-copy format for README.md** — properly marked and clean:
-
----
-
-## 🛠️ Installation Steps
-
 ### 1. **Clone the repository:**
 
 ```bash
