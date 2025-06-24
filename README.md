@@ -185,5 +185,18 @@ The dataset is essential for training the machine learning models to classify fi
 
 All images are processed and resized to a uniform size of 224x224 pixels before feeding into the models like VGG16 for prediction.
 
+# 🧠 Models 
+
+This project explores the following CNN architecture:
+
+* **VGG16**
+
+All model-related files are located under the `Model/` directory, with:
+
+* A trained model file: `keras_model.h5`
+* A label mapping file: `labels.txt`
+
+**Note:** The model was trained and tested via Python scripts (`train_model.py`).
+
 
 
