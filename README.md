@@ -7,11 +7,11 @@ The system processes fingerprint images and predicts the corresponding blood gro
 2. [Folder Structure](#folder-structure)
 3. [Getting Started](#getting-started)
 4. [Dataset](#dataset)
-5. [Models](#models)
+5. [Models](#-models)
 6. [Results](#results)
-7. [Sample Dataset](#sample-dataset)
+7. [Sample Dataset](#-sample-dataset)
 8. [Usage](#usage)
-9. [Model Download Instructions](#model-download-instructions)
+9. [Model Download Instructions](#-model-download-instructions)
 10. [Requirements](#requirements)
 11. [Contributing](#contributing)
 12. [License](#license)
@@ -198,5 +198,73 @@ All model-related files are located under the `Model/` directory, with:
 
 **Note:** The model was trained and tested via Python scripts (`train_model.py`).
 
+# Results
+Performance metrics and training graphs are stored in the static/ folder for easy access and visualization.
+
+* **Graphs**:
+Includes the following visualizations to represent the model's performance:
+
+* **accuracy.png**: Training and validation accuracy plot
+
+* **loss.png**: Training and validation loss plot
+
+* **loss_ratio.png**: Loss ratio over epochs
+
+* **architecture.png**: Visualization of the model architecture
+
+These graphs help in understanding the model’s learning progress and efficiency during training.
+
+# 📂 Sample Dataset
+The dataset_blood_group/ folder includes fingerprint images categorized into subfolders according to blood group types.
+
+Each subfolder (e.g., A+/, B-/, O+/, etc.) contains sample fingerprint images that demonstrate the structure and naming convention of the full dataset.
+
+This allows users to understand the expected input format and organization before running or training the model.
+
+---
+# Usage
+
+**Dataset Preparation:**
+Ensure that the `dataset_blood_group/` folder is populated with the required fingerprint images categorized by blood groups.
+
+**Running the Model:**
+Execute the `train_model.py` script to train the model. The script is designed to:
+
+* Load the dataset
+* Train the model on the training dataset
+* Evaluate the model on the test dataset
+
+**Viewing Results:**
+After training, check the `static/` folder for visualizations like accuracy, loss, and model architecture graphs.
+
+**Testing on Sample Data:**
+You can test the model using images from the `dataset_blood_group/` or by using additional external datasets collected for validation purposes.
+
+# 📥 Model Download Instructions
+
+The trained model file (`keras_model.h5`) is **not included** in this repository due to GitHub's file size restrictions.
+
+👉 You can download the required files from the following link:
+
+**[🔗 Google Drive Model Link](https://drive.google.com/file/d/1-qlmxs8OlovCTEYW5GTco-f6IKZP1B76/view?usp=sharing)**  
+
+After downloading:
+
+1. Place the following files in the `Model/` directory of this project:
+
+   * `keras_model.h5` — Trained Keras Model
+   * `labels.txt` — Class labels file
+
+### Example:
+
+```
+blood/
+│
+├── Model/
+│   ├── keras_model.h5    # Place downloaded model here
+│   └── labels.txt        # Place labels file here
+```
+
+⚠️ **Note:** Without these files, the prediction functionality in the app will not work.
 
 
