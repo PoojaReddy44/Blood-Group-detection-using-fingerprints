@@ -297,7 +297,6 @@ numpy==1.24.3
 ```
 JupyterLab  # if you want to run training or data exploration notebooks
 ```
-Sure! Here's a short 2-line license description you can include in your `README.md`:
 
 # 📝 License
 
