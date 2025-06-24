@@ -174,7 +174,16 @@ python train_model.py
 ```
 
 ---
+# DataSet
+The dataset contains fingerprint images organized into folders by blood group type. There are approximately 6,000–7,000 images spread across the eight blood group categories.
 
+Each subfolder within the dataset_blood_group/ directory represents a specific blood group and contains corresponding fingerprint images labeled accordingly,
+
+Ensure that you have sufficient storage space before downloading or expanding the dataset.
+
+The dataset is essential for training the machine learning models to classify fingerprint patterns into the respective blood groups.
+
+All images are processed and resized to a uniform size of 224x224 pixels before feeding into the models like VGG16 for prediction.
 
 
 
