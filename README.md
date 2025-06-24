@@ -32,8 +32,6 @@ Visualizations like model accuracy, loss graphs, and architecture diagram,
 
 A demo video and project presentation for better understanding.
 
-
-
 # Folder Structure 
 ## 📁 Folder Structure
 
@@ -85,6 +83,101 @@ blood/                         # Main project folder
 ├── .gitattributes            # LFS tracked files settings
 ├── requirements.txt          # Required Python packages list
 └── README.md                 # Project description file (you are reading this!)
+
+```
+# Getting Started
+## Prerequisites
+Make sure the following are installed:
+
+Python 3.10+
+
+pip (Python package manager)
+
+Git
+
+Virtual Environment (recommended)
+## Installation steps:
+Here’s your **Installation Steps** in **perfect, ready-to-copy format for README.md** — properly marked and clean:
+
+---
+
+## 🛠️ Installation Steps
+
+### 1. **Clone the repository:**
+
+```bash
+git clone https://github.com/PoojaReddy44/Blood-Group-detection-using-fingerprints.git
+cd Blood-Group-detection-using-fingerprints
+```
+
+---
+
+### 2. **(Optional) Create and activate a virtual environment:**
+
+For **macOS/Linux**:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+For **Windows**:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+---
+
+### 3. **Install required packages:**
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 4. **Download the model file (`keras_model.h5`) and labels (`labels.txt`):**
+
+⚠️ **Note:**
+The trained model file (`keras_model.h5`) is large and not included in this repository due to GitHub file size limits.
+
+👉 \[Provide your Google Drive / External Download Link Here]
+
+After downloading, place the following files into the `Model/` directory:
+
+```
+Model/
+ ├── keras_model.h5
+ └── labels.txt
+```
+
+---
+
+### 5. **Run the Flask app:**
+
+```bash
+python app.py
+```
+
+---
+
+### 6. **Open your browser and visit:**
+
+```bash
+http://127.0.0.1:5000
+```
+
+---
+
+### 7. **(Optional) Retrain the model:**
+
+```bash
+python train_model.py
+```
+
+---
 
 
 
