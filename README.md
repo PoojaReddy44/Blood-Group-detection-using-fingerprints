@@ -136,9 +136,27 @@ pip install -r requirements.txt
 
 ---
 
-### 4. **Download the model file (`keras_model.h5`) and labels (`labels.txt`):**
+### 4.Model Generation Instructions:**
 
-⚠️ **Note:**
+> ⚠️ **Note:** The `Model/` directory (which contains the trained model `keras_model.h5` and `labels.txt`) is **not included** in this repository due to file size restrictions.
+
+You can generate the model by training it yourself using the following command:
+
+```bash
+python train_model.py
+```
+
+This will:
+
+* Train the CNN model (e.g., VGG16) on the dataset
+* Automatically create the `Model/` folder
+* Save the trained model as `keras_model.h5` and the label mapping as `labels.txt`
+
+Once training is complete, the `Model/` directory will be ready for use during prediction.
+
+
+
+⚠️ **Note: For Reference**
 The trained model file (`keras_model.h5`) is large and not included in this repository due to GitHub file size limits.
 
 👉 [Download Keras_model.h5](https://drive.google.com/file/d/1-qlmxs8OlovCTEYW5GTco-f6IKZP1B76/view?usp=sharing)
@@ -248,9 +266,14 @@ You can test the model using images from the `dataset_blood_group/` or by using 
 
 The trained model file (`keras_model.h5`) is **not included** in this repository due to GitHub's file size restrictions.
 
-👉 You can download the required files from the following link:
+👉 You can generate the model by training it yourself using the following command:
 
-**[🔗 Google Drive Model Link](https://drive.google.com/file/d/1-qlmxs8OlovCTEYW5GTco-f6IKZP1B76/view?usp=sharing)**  
+```bash
+python train_model.py
+```
+
+
+**For reference:[🔗 Google Drive Model Link](https://drive.google.com/file/d/1-qlmxs8OlovCTEYW5GTco-f6IKZP1B76/view?usp=sharing)**  
 
 After downloading:
 
